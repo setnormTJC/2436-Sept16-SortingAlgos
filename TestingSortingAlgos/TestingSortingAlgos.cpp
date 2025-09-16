@@ -52,8 +52,7 @@ int main()
         "charlie"
     };
     
-    //std::swap(words[0], words[1]);
-
+    //std::swap(words[0], words[1]); //just a simple demo that std::swap works as expected
 
     std::cout << "Address of words in main: " << &words << "\n";
 
@@ -61,9 +60,5 @@ int main()
 
     //MySpace::printThings(words);
 
-
-
-
-    //std::cout << "Hello World!\n";
 }
 
